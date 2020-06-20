@@ -10,11 +10,9 @@ import random
 
 
 def scrapping():
-    #[WIP] Número de articulos que no se han podido recoger
-    #[WIP] Comentar código
-    #[WIP] Automatizar de forma diaria
-    driver = webdriver.Chrome()
 
+    driver = webdriver.Chrome()
+    
     # Keys to URL and Values to divs (xpath data-category)
     articles_divs = {
         'tarjetas-graficas': 'Tarjetas Gráficas',
@@ -168,7 +166,7 @@ def scrapping():
                         break
                     else: 
                         print("Scrapping failed! Didn't get all articles!! ----> "+k)
-                        
+
                 #rest of articles that only have one data-category for each one        
                 else:            
                     div = driver.find_elements_by_xpath("//article[@data-category="+"'"+v+"'"+']')
