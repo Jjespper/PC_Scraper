@@ -4,7 +4,6 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 from selenium.common.exceptions import TimeoutException
-from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.action_chains import ActionChains
 import time
 import random
@@ -59,20 +58,11 @@ def scrapping():
                 driver.get(url="https://www.pccomponentes.com/"+k)
                 while True:
                     try:
-                        time.sleep(15)
-                        pop_up = driver.find_element_by_xpath("//a[@class='cn__close_modal']")
-                        if pop_up:
-                            print('pop_up exists')
-                            pop_up.click()
-                            break
-                        else:
-                            print('NO HAY POP')
-                            break
                         #Pop-Up
-               #         WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.XPATH, "//a[@class='cn__close_modal']"))).click()
-               #         print("Pop-up closed")
-               #         break
-                    except NoSuchElementException:
+                        WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.XPATH, "//a[@class='cn__close_modal']"))).click()
+                        print("Pop-up closed")
+                        break
+                    except TimeoutException:
                         break
                 
                 while True:
@@ -102,11 +92,9 @@ def scrapping():
                 total_articles = int(total_articles)
                 print('Total '+ k +' '+str(total_articles))
                 
-                scroll_cnt = 0
-                restart = True
-                while restart:
+                while True:
                     #Infinite scroll 
-                    scroll_cnt +=1
+
                     # Scroll down to bottom
                     driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
                     # Wait to load page
@@ -130,10 +118,7 @@ def scrapping():
                         # If heights are the same it will exit the function
                         break
                     last_height = new_height
-
-                    if total_articles/24 < scroll_cnt:
-                        restart = False
-                        
+                    
                 time.sleep(2)
                 
                 #torres articles has different data-category names 
