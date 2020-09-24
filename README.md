@@ -12,10 +12,10 @@ This is a web scraper built with Selenium, 5 features are extracted.
 
 <ul>
   <li>Article: Name of product</li>
-  <li>Category: </li>
-  <li>Price</li>
-  <li>Stock</li>
-  <li>Date</li>
+  <li>Category: Product category</li>
+  <li>Price: €</li>
+  <li>Stock: 1)Available 2)Available soon 3) Available soon 4) No stock </li>
+  <li>Date: YYYY/MM/DD</li>
 </ul>
 
 This scraper take more than 9000 articles daily.
