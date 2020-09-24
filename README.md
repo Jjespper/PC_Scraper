@@ -18,7 +18,7 @@ This is a web scraper built with Selenium, 5 features are extracted.
   <li>Date: YYYY/MM/DD</li>
 </ul>
 
-This scraper take more than 9000 articles daily.[](https://user-images.githubusercontent.com/51057882/94199543-45b33a00-feb9-11ea-8523-d36862ec3f23.png)
+This scraper take more than 9000 articles daily. ![](https://user-images.githubusercontent.com/51057882/94199543-45b33a00-feb9-11ea-8523-d36862ec3f23.png)
 
 The idea of this project is to automate the scratch and to be able to do analysis with the temporary fluctuations of the price.
 
