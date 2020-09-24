@@ -1,6 +1,6 @@
 # PC Scraper
 
-The scope of this project is to develop a script that a web scraper to get and store in a MySQL database all the articles from a list of categories from this website: https://www.pccomponentes.com.
+The scope of this project is to develop a script that a web scraper to get and store in a MySQL database all the articles from a list of categories from this website: https://www.pccomponentes.com
 
 These are the categories that will be scrapped.
 
@@ -23,5 +23,7 @@ This scraper take more than 9000 articles daily.
 
 The idea of this project is to automate the scratch and to be able to do analysis with the temporary fluctuations of the price.
 
-## Files
+## Files & Folders
+This repository have several files and folders, to make it easier lets explain briefly:
+
 [WIP]
