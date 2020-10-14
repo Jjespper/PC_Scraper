@@ -32,3 +32,4 @@ This repository have several files and folders, to make it easier lets explain b
 
 `main.py`: Executable script to collect the data from the scrapping in a MySQL database.
 
+**[WIP]**
