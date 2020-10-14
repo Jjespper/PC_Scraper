@@ -27,8 +27,8 @@ The idea of this project is to automate the scrap, create a large database for e
 ## Files & Folders
 This repository have several files and folders, to make it easier lets explain briefly:
 
-**Env**[Folder]
-⋅⋅⋅`environment.yml`: YAML-formatted environment manifest of the application to configure the environment
+**Env**
+`environment.yml`: YAML-formatted environment manifest of the application to configure the environment
 
 `main.py`: Executable script to collect the data from the scrapping in a MySQL database.
 
