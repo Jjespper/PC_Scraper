@@ -6,7 +6,7 @@ PC Components is a Spanish e-commerce portal specialized in computer, electronic
 
 These are the categories that will be scrapped.
 
-Components
+**Components**
  
 `Graphics cards`
 `Processors` 
