@@ -12,13 +12,14 @@ Components
 `Processors` 
 `Motherboards`
 `Hard drives hdd & sdd -RAMs`
-`Power source -Multi-readers`
+`Power source`
+`Multi-readers`
 `Sound cards`
 `Towers`
 `Fans`
 `DVD, blue-ray`
 `Capturers`
--`Periferics`
+`Periferics`
 `Screens`
 `Keyboards`
 `Microphones`
