@@ -8,7 +8,28 @@ These are the categories that will be scrapped.
 
 Components
  
--Graphics cards -Processors -Motherboards -Hard drives hdd & sdd -RAMs -Power source -Multi-readers -Sound cards -Towers -Fans -DVD, blue-ray -Capturers -Periferics -Screens -Keyboards -Microphones -Laptops -Smartphones -TV -Tablets -PS4 -Nintendo Switch -Xbox-One -Nintendo DS/3DS
+`Graphics cards`
+`Processors` 
+`Motherboards`
+`Hard drives hdd & sdd -RAMs`
+`Power source -Multi-readers`
+`Sound cards`
+`Towers`
+`Fans`
+`DVD, blue-ray`
+`Capturers`
+-`Periferics`
+`Screens`
+`Keyboards`
+`Microphones`
+`Laptops`
+`Smartphones`
+`TV`
+`Tablets`
+`PS4`
+`Nintendo Switch`
+`Xbox-One`
+`Nintendo DS/3DS`
 
 This is a web scraper built with Selenium, 5 features are extracted.
 
