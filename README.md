@@ -22,9 +22,13 @@ This is a web scraper built with Selenium, 5 features are extracted.
 
 This scraper take more than 9000 articles daily. ![](https://user-images.githubusercontent.com/51057882/94199543-45b33a00-feb9-11ea-8523-d36862ec3f23.png)
 
-The idea of this project is to automate the scratch and to be able to do analysis with the temporary fluctuations of the price.
+The idea of this project is to automate the scrap, create a large database for easy access to use in different analyzes, machine learning models, dashborads or whatever you want.
 
 ## Files & Folders
 This repository have several files and folders, to make it easier lets explain briefly:
 
-[WIP]
+**Env**[Folder]
+⋅⋅⋅`environment.yml`: YAML-formatted environment manifest of the application to configure the environment
+
+`main.py`: Executable script to collect the data from the scrapping in a MySQL database.
+
