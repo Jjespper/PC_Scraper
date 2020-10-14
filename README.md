@@ -1,6 +1,8 @@
 # PC Scraper
 
-The scope of this project is to develop a script that a web scraper to get and store in a MySQL database all the articles from a list of categories from this website: https://www.pccomponentes.com
+The scope of this project is to develop a web scraper script to get and store in a MySQL database all the articles from a list of categories from this website: https://www.pccomponentes.com
+
+PC Components is a Spanish e-commerce portal specialized in computer, electronic and appliance products. Belongs to the YF Networks group and operates in Spain and Portugal.
 
 These are the categories that will be scrapped.
 
