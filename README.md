@@ -1,6 +1,6 @@
 # PC Scraper
 
-The scope of this project is to develop a web scraper script to get and store in a MySQL database all the articles from a list of categories from this website: https://www.pccomponentes.com
+The scope of this project is to develop a web scraper script (with Selenium) to get and store in a MySQL database all the articles from a list of categories from this website: https://www.pccomponentes.com
 
 PC Components is a Spanish e-commerce portal specialized in computer, electronic and appliance products. Belongs to the YF Networks group and operates in Spain and Portugal.
 
@@ -19,20 +19,28 @@ These are the categories that will be scrapped.
 `Fans`
 `DVD, blue-ray`
 `Capturers`
-`Periferics`
+
+**PC-Periferics**
+
 `Screens`
 `Keyboards`
 `Microphones`
 `Laptops`
+
+**Other electronic devices**
+
 `Smartphones`
 `TV`
 `Tablets`
+
+**Consoles**
+
 `PS4`
 `Nintendo Switch`
 `Xbox-One`
 `Nintendo DS/3DS`
 
-This is a web scraper built with Selenium, 5 features are extracted.
+The database is structured in 5 main features.
 
 <ul>
   <li>Article: Name of product</li>
@@ -53,5 +61,3 @@ This repository have several files and folders, to make it easier lets explain b
 `environment.yml`: YAML-formatted environment manifest of the application to configure the environment
 
 `main.py`: Executable script to collect the data from the scrapping in a MySQL database.
-
-**[WIP]**
